@@ -24,6 +24,9 @@ input.onButtonPressed(Button.B, function () {
 let Spike_2: game.LedSprite = null
 let Player_2: game.LedSprite = null
 let Player: game.LedSprite = null
+basic.showString("Press A to jump!")
+basic.showString("Ready?")
+basic.showString("Go!")
 let Score = 0
 Player = game.createSprite(0, 3)
 Player_2 = game.createSprite(0, 2)
